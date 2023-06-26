@@ -354,7 +354,7 @@ header {
 
 main {
   position: relative;
-  top: 109px;
+  top: 70px;
 }
 
 .main {}
@@ -696,37 +696,42 @@ h2 {
   border-bottom: 1px solid #ffffff45;
 }
 
-.main__contacts--adress,
-.main__contacts--email {
+.main__contacts-adress,
+.main__contacts-email {
   margin-bottom: 17px;  
 }
 
-.main__contacts--adress:before {
+.main__contacts-adress:before {
   content: url('../img/local.png');
   float: left;
   margin-right: 9px;
 }
 
-.main__contacts--email:before {
+.main__contacts-email:before {
   content: url('../img/mail.png');
   float: left;
   margin-right: 9px;
 }
 
-.main__contacts--adress h3,
-.main__contacts--email h3 {
+.main__contacts-adress h3,
+.main__contacts-email h3 {
   font-family: 'Gilroy-Regular';
   font-size: 14px;
   color: #CFCFCF;
   margin-bottom: 4px;
 }
 
-.main__contacts--adress p,
-.main__contacts--email p {
+.main__contacts-adress p {
   font-family: 'Gilroy-Regular';
   font-size: 16px;
   color: #fff;
 }
+
+.main__contacts-email--link {
+  font-family: 'Gilroy-Regular';
+  font-size: 16px;
+  color: #fff;
+} 
 
 .main__contacts--application {
   display: flex;
@@ -809,7 +814,7 @@ footer {
   z-index: 14;
   background: #211F20;
   font-family: 'Gilroy-Regular'; 
-  padding: 0 27px;
+  padding: 0 11px;
 }
 
 .footer h4 {
@@ -898,8 +903,7 @@ footer {
   transition: all 0.2s ease-in-out;
 }
 
-.footer__menu--link {
-}
+.footer__menu--link {}
 
 @media only screen and (max-width: 1377px) {
 
@@ -917,7 +921,7 @@ footer {
 @media only screen and (max-width: 1327px) {
 
   .main__screen-menu--container h2 {
-    margin-left: 41px;
+    margin-left: 19px;
     text-align: left;
   }
 
@@ -947,6 +951,10 @@ footer {
 
 @media only screen and (max-width: 1077px) {
 
+  .bottom-gradient {
+    display: none;
+  }
+
   .main__restaurant-info--container {
     display: block;
   }
@@ -973,6 +981,10 @@ footer {
 
 @media only screen and (max-width: 1074px) {
 
+  .header {
+    margin: 20px 0;
+  }
+
   .header__menu-and-phone {
     display: none;
   }  
@@ -985,7 +997,7 @@ footer {
     z-index: 11111;
     left: 0;
     right: 0;
-    top: 104px;
+    top: 73px;
     padding: 0px 0 32px 0;
     background: #403C3B;
   }
@@ -1136,6 +1148,10 @@ footer {
 
 @media only screen and (max-width: 600px) {
 
+  .popup-1 {
+    top: 188px;
+  }
+
   h1 {
     font-size: 42px;
   }  
@@ -1158,6 +1174,10 @@ footer {
     width: 100%;
     padding: 23px 0;
     text-align: center;
+  }
+
+  .main__contacts--button {
+    margin: 0 auto;
   }
 
   .main__contacts--number {
@@ -1243,7 +1263,6 @@ footer {
     font-size: 20px;
     text-align: left;
     padding-left: 16px;
-    margin-left: 16px;
   }
 
   .header__phone-icon{
