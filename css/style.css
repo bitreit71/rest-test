@@ -362,6 +362,7 @@ main {
 .main__screen-general {
   height: 633px;
   position: relative;
+  bottom: 37px;
   background: url(../img/banner.png) no-repeat;
   background-size: cover;
   /* padding: 200px 107px; */
